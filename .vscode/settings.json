@@ -1,5 +1,8 @@
 {
     "yaml.schemas": {
-        "https://json.schemastore.org/yamllint.json": "file:///home/justin/githome/learning/github-actions-javascript/auto-release-draft/.github/workflows/build.yml"
+        "https://json.schemastore.org/yamllint.json": [
+            "file:///home/justin/githome/learning/github-actions-javascript/auto-release-draft/.github/workflows/build.yml",
+            "file:///home/justin/githome/learning/github-actions-javascript/auto-release-draft/action.yml"
+        ]
     }
 }

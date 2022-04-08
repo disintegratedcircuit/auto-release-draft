@@ -4,6 +4,9 @@ author: 'Disintegrated Circuit'
 runs:
   using: 'node16'
   main: 'dist/index.js'
+inputs:
+  repo-token:
+    description: "the GITHUB_TOKEN used to authenticate to the current repo"
 outputs:
   release-url:
     description: 'The URL of the GitHub release that was drafted'
