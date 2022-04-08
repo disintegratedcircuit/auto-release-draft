@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "auto-release-draft",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Drafts a GitHub release with the changes introduced by a newly created version tag",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,19 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/disintegratedcircuit/auto-release-draft.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "",
+  "author": "Disintegrated Circuit",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "@types/node": "^16.10.5",
     "@typescript-eslint/parser": "^5.8.1",
     "@vercel/ncc": "^0.31.1",
@@ -38,6 +39,6 @@
     "js-yaml": "^4.1.0",
     "prettier": "2.5.1",
     "ts-jest": "^27.1.2",
-    "typescript": "^4.4.4"
+    "typescript": "^4.6.3"
   }
 }
